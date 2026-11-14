@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.log
+
+# local work dir created by the patchers (relative to the cwd)
+.work/
+
+# license_server/bin/ holds the prebuilt licence servers. They are NOT committed:
+# build them once with 2-build-license-server.bat (needs Go 1.21+) before patching.
+license_server/bin/
+
+# downloaded samples and generated artifacts (large, reproducible)
+asset/

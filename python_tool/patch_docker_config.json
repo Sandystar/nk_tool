@@ -1,0 +1,15 @@
+{
+  "host": "192.168.0.101",
+  "ssh_port": 22,
+  "ssh_user": "user",
+  "ssh_password": "password",
+  "ssh_key": "",
+  "app_port": 5233,
+  "container": "",
+  "match": "neokikoeru",
+  "admin_user": "",
+  "admin_password": "",
+  "reset_password": false,
+  "auto_activate": true,
+  "verbose": false
+}

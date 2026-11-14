@@ -1,0 +1,4 @@
+paramiko>=3.4
+
+# only needed when rotating the licence key pair in license_server/
+# cryptography>=41

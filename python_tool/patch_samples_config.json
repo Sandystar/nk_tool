@@ -1,0 +1,13 @@
+{
+  "license_port": 18443,
+  "client_port": 5233,
+  "license_key": "Hello-World",
+  "license_server_dir": "../license_server",
+  "output_suffix": "_patched",
+  "copy_license_server": true,
+  "emit_start_script": true,
+  "start_script_name": "start_neokikoeru",
+  "license_server_log": "nplicense.log",
+  "client_args": ["serve"],
+  "work_dir": ".work"
+}
